@@ -24,9 +24,9 @@ function Header({}: Props) {
         }}
 
         className='flex flex-row items-center'>
-        <SocialIcon url="https://twitter.com/swarts_d" fgColor='gray' bgColor='transparent'/>
-        <SocialIcon url="https://twitter.com/swarts_d" fgColor='gray' bgColor='transparent'/>
-        <SocialIcon url="https://twitter.com/swarts_d" fgColor='gray' bgColor='transparent'/>
+        <SocialIcon url="https://www.linkedin.com/in/daurius-ali-swarts-1b151420b/" target='_blank' fgColor='gray' bgColor='transparent'/>
+        <SocialIcon url="https://github.com/alimora83" target='_blank' fgColor='gray' bgColor='transparent'/>
+        <SocialIcon url="https://twitter.com/swarts_d" target='_blank' fgColor='gray' bgColor='transparent'/>
         </motion.div>
         <motion.div 
          initial={{
@@ -42,8 +42,9 @@ function Header({}: Props) {
         transition={{
             duration: 1,
         }}>
-        <SocialIcon className='cursor-pointer' network='email' fgColor='gray' bgColor='transparent'/>
-        <p className='uppercase hidden md:inline-flex text-sm text-gray-400'>get in touch</p>
+        <a href="#contact">
+            <SocialIcon className='cursor-pointer' network='email' fgColor='gray' bgColor='transparent'/>
+            <p className='uppercase hidden md:inline-flex text-sm text-gray-400'>get in touch</p></a>
         </motion.div>
     </header>
   )
