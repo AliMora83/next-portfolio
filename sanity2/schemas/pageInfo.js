@@ -50,8 +50,8 @@ export default {
       type: "string",
     },
     {
-      name: "socials",
-      title: "Socials",
+      name: "social",
+      title: "Social",
       type: "array",
       of: [
         {

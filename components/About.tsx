@@ -30,9 +30,9 @@ export default function About({}: Props) {
     md:rounded-lg md:w-64 md:h-95 xl:w-[300px] xl:h-[400px]'
     />
     <div className='space-y-10 px-0 md:px-10' >
-        <h4 className='text-4xl font-semibold uppercase'>
+        <h4 className='text-4xl font-semibold uppercase tracking-wider'>
             More about <span className='underline decoration-[#f7ab0a]'>me</span></h4>
-        <p className='text-base'>
+        <p className='text-base text-gray-500'>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus, laboriosam rerum. Cupiditate, cumque? Consequatur odio repudiandae assumenda sapiente omnis aut consectetur repellendus quibusdam doloremque. Tempora sit cumque repellendus natus voluptatibus esse ex possimus illo cum doloribus? Fugiat itaque praesentium maiores iusto laborum mollitia omnis sint et eaque alias, nemo minima?</p>
         
     </div>

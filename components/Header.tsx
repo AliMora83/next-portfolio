@@ -23,7 +23,7 @@ function Header({}: Props) {
             duration: 1.5,
         }}
 
-        className='flex flex-row items-center'>
+        className='flex flex-row items-center hover:text-[#f7ab0a]'>
         <SocialIcon url="https://www.linkedin.com/in/daurius-ali-swarts-1b151420b/" target='_blank' fgColor='gray' bgColor='transparent'/>
         <SocialIcon url="https://github.com/alimora83" target='_blank' fgColor='gray' bgColor='transparent'/>
         <SocialIcon url="https://twitter.com/swarts_d" target='_blank' fgColor='gray' bgColor='transparent'/>
