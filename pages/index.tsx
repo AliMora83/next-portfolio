@@ -24,7 +24,7 @@ type Props = {
   socials: Social[];
 }
 
-const Home = ({pageInfo, experiences, projects, socials}: Props) => {
+const Home = ({pageInfo, experiences, skills, projects, socials}: Props) => {
   return (
     <div className="bg-[rgb(36,36,36)] text-white h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0
     scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#f7ab0a]" >
@@ -81,6 +81,7 @@ export const getStaticProps: GetStaticProps<Props> = async () => {
   const skills: Skill[] = await fetchSkills();
   const projects: Project[] = await fetchProjects();
   const socials: Social[] = await fetchSocial();
+
 
   return {
     props: {
