@@ -1,11 +1,14 @@
 import React from 'react';
 import { SocialIcon } from 'react-social-icons';
 import { motion } from 'framer-motion';
+import { Social } from '../typings';
 
 
-type Props = {}
+type Props = {
+    socials: Social[];
+}
 
-function Header({}: Props) {
+function Header({socials}: Props) {
   return (
     <header className='sticky top-0 p-5 flex items-start justify-between max-w-7xl mx-auto z-10 xl:items-center'>
         <motion.div
@@ -24,9 +27,14 @@ function Header({}: Props) {
         }}
 
         className='flex flex-row items-center hover:text-[#f7ab0a]'>
-        <SocialIcon url="https://www.linkedin.com/in/daurius-ali-swarts-1b151420b/" target='_blank' fgColor='gray' bgColor='transparent'/>
-        <SocialIcon url="https://github.com/alimora83" target='_blank' fgColor='gray' bgColor='transparent'/>
-        <SocialIcon url="https://twitter.com/swarts_d" target='_blank' fgColor='gray' bgColor='transparent'/>
+            {socials.map((socials) => (
+                <SocialIcon 
+                key={socials._id}
+                url={socials.url} 
+                target='_blank' 
+                fgColor='gray' 
+                bgColor='transparent'/>
+            ))}
         </motion.div>
         <motion.div 
          initial={{

@@ -1,10 +1,13 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { PageInfo } from '../typings';
+import { urlFor } from '../sanity';
 
+type Props = {
+    pageInfo: PageInfo
+}
 
-type Props = {}
-
-export default function About({}: Props) {
+export default function About({pageInfo}: Props) {
   return (
     <motion.div
     initial={{opacity:0}}
@@ -25,7 +28,8 @@ export default function About({}: Props) {
         }}
         whileInView={{x: 0, opacity: 1}}
 
-    src='ali_mora2.jpg' alt='image'
+    src={urlFor(pageInfo?.profilePic).url()} 
+    alt='image'
     className='-mb-20 mt-10 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover
     md:rounded-lg md:w-64 md:h-95 xl:w-[300px] xl:h-[400px]'
     />
@@ -33,7 +37,8 @@ export default function About({}: Props) {
         <h4 className='text-4xl font-semibold uppercase tracking-wider'>
             More about <span className='underline decoration-[#f7ab0a]'>me</span></h4>
         <p className='text-base text-gray-500'>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus, laboriosam rerum. Cupiditate, cumque? Consequatur odio repudiandae assumenda sapiente omnis aut consectetur repellendus quibusdam doloremque. Tempora sit cumque repellendus natus voluptatibus esse ex possimus illo cum doloribus? Fugiat itaque praesentium maiores iusto laborum mollitia omnis sint et eaque alias, nemo minima?</p>
+            {pageInfo?.bgInfo}
+        </p>
         
     </div>
     </motion.div>
