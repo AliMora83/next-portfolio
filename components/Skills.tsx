@@ -22,11 +22,11 @@ export default function Skills({skills}: Props) {
             Hover over skill icon for proficiency</h3>
 
         <div className="grid grid-cols-4 gap-5">
-            {skills?.slice(0, skills.length / 2).map((skill) => (
-              <Skilll key={skill._id}skills={skill}/>
+            {skills?.slice(0, skills.length / 2).map((skills) => (
+              <Skilll key={skills._id}skill={skills}/>
             ))}
-            {skills?.slice(skills.length / 2, skills.length).map((skill) => (
-              <Skilll key={skill._id}skills={skill} directionLeft/>
+            {skills?.slice(skills.length / 2, skills.length).map((skills) => (
+              <Skilll key={skills._id}skill={skills} directionLeft/>
             ))}   
         </div>
     </motion.div>

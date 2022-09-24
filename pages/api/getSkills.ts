@@ -7,14 +7,14 @@ const query = groq`
 *[_type == "skill"]`
 
 type Data = {
-    skill: Skill[]
+    skills: Skill[]
   }
   
   export default async function handler(
     req: NextApiRequest,
     res: NextApiResponse<Data>
   ) {
-    const skill: Skill[] = await sanityClient.fetch(query);
+    const skills: Skill[] = await sanityClient.fetch(query);
 
-    res.status(200).json({skill})
+    res.status(200).json({skills})
   }

@@ -7,6 +7,7 @@ import { PageInfo } from '../typings';
 import BackgroundCircles from './BackgroundCircles';
 
 
+
 type Props = {
   pageInfo: PageInfo
 };
