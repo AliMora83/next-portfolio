@@ -21,6 +21,7 @@
     "@sanity/default-login": "^2.33.2",
     "@sanity/desk-tool": "^2.33.2",
     "@sanity/eslint-config-studio": "^2.0.0",
+    "@sanity/image-url": "^1.0.1",
     "@sanity/vision": "^2.33.2",
     "deploy": "^1.0.3",
     "eslint": "^8.6.0",
