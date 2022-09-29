@@ -1,22 +1,15 @@
 /* eslint-disable @next/next/no-img-element */
+
 import Link from 'next/link';
-import React from 'react';
 import { Cursor, useTypewriter } from 'react-simple-typewriter';
-import { urlFor } from '../sanity';
-import { PageInfo } from '../typings';
 import BackgroundCircles from './BackgroundCircles';
-import imageUrlBuilder from '@sanity/image-url';
 
 
 
-type Props = {
-  pageInfo: PageInfo
-};
-
-function Hero({pageInfo}: Props) {
+function Hero() {
     const [text, count] = useTypewriter({
         words: [
-            `🏆 I am ${pageInfo?.name}, welcome 🏆`,
+            `🏆 I am Ali Mora, welcome 🏆`,
             "I-Program-the-Future.tsx",
             "<And-Loves-Traveling />",
         ],
@@ -28,16 +21,15 @@ function Hero({pageInfo}: Props) {
     <div className='h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden'>
         
             <BackgroundCircles />
-            {pageInfo?.heroImage && (
                 <img className='relative rounded-full h-32 w-32 mx-auto object-cover' 
-            src={urlFor(pageInfo?.heroImage).url()} 
-            alt="" />
-            )}
-          
-            
+                  src="/ali_mora.png"
+                  alt="" />
+
             <div className='z-20'>
-               
-                <h2 className='uppercase text-sm text-gray-500 pb-2 pt-5 tracking-[15px]'>{pageInfo?.role}</h2>
+            
+              <h2 className='uppercase text-sm text-gray-500 pb-2 pt-5 tracking-[15px]'>
+                  software engineer</h2>
+            
                 <h1 className='text-5xl lg:text-6xl font-semibold px-10'>
                 <span className='mr-3'>{text}</span>
                 <Cursor cursorColor='#F7aB0a'/>
@@ -56,3 +48,7 @@ function Hero({pageInfo}: Props) {
 }
 
 export default Hero
+function useEffect(arg0: () => void, arg1: never[]) {
+  throw new Error('Function not implemented.');
+}
+

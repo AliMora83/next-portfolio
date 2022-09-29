@@ -3,11 +3,7 @@ import { motion } from 'framer-motion';
 import {Skill as SkillType} from "../typings";
 import Skilll from './Skilll';
 
-type Props = {
-  skills: SkillType[]
-};
-
-export default function Skills({skills}: Props) {
+export default function Skills() {
   return (
     <motion.div
     initial={{opacity:0}}
@@ -22,12 +18,10 @@ export default function Skills({skills}: Props) {
             Hover over skill icon for proficiency</h3>
 
         <div className="grid grid-cols-4 gap-5">
-            {skills?.slice(0, skills.length / 2).map((skills) => (
-              <Skilll key={skills._id}skill={skills}/>
-            ))}
-            {skills?.slice(skills.length / 2, skills.length).map((skills) => (
-              <Skilll key={skills._id}skill={skills} directionLeft/>
-            ))}   
+           
+              <Skilll />
+       
+              <Skilll directionLeft/>
         </div>
     </motion.div>
   )
