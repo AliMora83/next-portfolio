@@ -25,8 +25,8 @@ export default function Skill01(directionLeft: any) {
         xl:w-32 xl:h-32 filter group-hover:opacity-80 transition duration-300 ease-in-out
         md:w-28 md:h-28 group-hover:bg-white z-0">
             <div className='flex items-center justify-center h-full'>
-                <p className='text-3xl font-bold text-black opacity-100'>
-                    80%</p>
+                <p className='text-lg font-bold text-black opacity-100'>
+                    THIRDWEB</p>
             </div>
         </div>
     </motion.div>

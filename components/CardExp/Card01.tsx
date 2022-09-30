@@ -29,6 +29,9 @@ export default function Card01() {
                   <img className='h-10 w-10 rounded-full'
                       src="/react-icon.png"
                       alt="image" />
+                  <img className='h-10 w-10 rounded-full'
+                      src="/canva.webp"
+                      alt="image" />
               </div>
               <p className='uppercase py-5 text-gray-500 tracking-wider text-sm'>
                   from: Feb 10 2017 | to: Current

@@ -46,7 +46,7 @@ export default function Contact({}: Props) {
         </div>
         <div className='flex items-center space-x-5 justify-center'>
             <MapPinIcon className='text-[#f7ab0a] h-7 w-7 animate-pulse'/>
-            <p className='text-xl'>123 Long Street</p>
+            <p className='text-xl'>South Africa - Remote</p>
         </div>
     </div>
             <form onSubmit={handleSubmit(onSubmit)} className='flex flex-col space-y-2 w-fit mx-auto'>
