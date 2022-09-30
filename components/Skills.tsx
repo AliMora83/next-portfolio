@@ -1,6 +1,9 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import Skilll from './Skilll';
+import Skill01 from './Skill01';
+import Skill02 from './Skill02';
+import Skill03 from './Skill03';
+import Skill04 from './Skill04';
 
 export default function Skills() {
   return (
@@ -18,13 +21,10 @@ export default function Skills() {
 
         <div className="grid grid-cols-4 gap-5">
            
-              <Skilll />
-              <Skilll />
-              <Skilll />
-       
-              <Skilll directionLeft/>
-              <Skilll directionLeft/>
-              <Skilll directionLeft/>
+              <Skill01 />
+              <Skill02 />
+              <Skill03 />
+              <Skill04 />
         </div>
     </motion.div>
   )
