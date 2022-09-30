@@ -23,7 +23,19 @@ function Header() {
 
         className='flex flex-row items-center hover:text-[#f7ab0a]'>
             
-                <SocialIcon
+                <SocialIcon url='https://github.com/alimora83'
+                target='_blank' 
+                fgColor='gray' 
+                bgColor='transparent'/>
+                <SocialIcon url='https://www.facebook.com/Dauriuss/'
+                target='_blank' 
+                fgColor='gray' 
+                bgColor='transparent'/>
+                <SocialIcon url='https://www.linkedin.com/in/daurius-ali-swarts-1b151420b/'
+                target='_blank' 
+                fgColor='gray' 
+                bgColor='transparent'/>
+                <SocialIcon url='https://twitter.com/swarts_d'
                 target='_blank' 
                 fgColor='gray' 
                 bgColor='transparent'/>

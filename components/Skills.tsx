@@ -1,12 +1,11 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import {Skill as SkillType} from "../typings";
 import Skilll from './Skilll';
 
 export default function Skills() {
   return (
     <motion.div
-    initial={{opacity:0}}
+    initial={{opacity:0,}}
     whileInView={{opacity:1}}
     transition={{duration:1.5}} 
     className='flex flex-col relative min-h-screen text-center md:text-left md:flex-row
@@ -20,7 +19,11 @@ export default function Skills() {
         <div className="grid grid-cols-4 gap-5">
            
               <Skilll />
+              <Skilll />
+              <Skilll />
        
+              <Skilll directionLeft/>
+              <Skilll directionLeft/>
               <Skilll directionLeft/>
         </div>
     </motion.div>

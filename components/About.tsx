@@ -33,9 +33,14 @@ export default function About() {
     <div className='space-y-10 px-0 md:px-10' >
         <h4 className='text-4xl font-semibold uppercase tracking-wider'>
             More about <span className='underline decoration-[#f7ab0a]'>me</span></h4>
-        <p className='text-base text-gray-500'>
-        With over 15 years Advertising Experience, building brands for small companies. I make use of Adobe CC for Graphic Design, Visual Effects, DTP and Prototyping.
+        <p className='text-base text-gray-500 max-w-2xl'>
+        With over 15 years Advertising Experience, building brands for small companies. I made use of Adobe CC for Graphic Design, Visual Effects, DTP and Prototyping.
+        Front-end development/Ui/Ux, I use Canva, Figma and Miro. Back-end development includeds JavaScript, Reactjs, Node, MongoDB and Sanity.
         </p>
+        <p className='text-base text-gray-500 max-w-2xl'>
+            NAMKA Crypto Draw, is my third Web3 Dapp. Currently working on the business model and a few more features before testing.
+            South Africa is my home! Looking forward to traveling and programming a better future with everyone I meet.
+            </p>
         
     </div>
     </motion.div>
