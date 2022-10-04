@@ -13,12 +13,12 @@ export default function Projects({}: Props) {
     whileInView={{opacity:1}}
     transition={{duration:1.5}} 
     className='flex flex-col relative h-screen text-center md:text-left md:flex-row
-    max-w-7xl px-10 justify-evenly mx-auto items-center'>
+    max-w-7xl px-10 justify-evenly mx-auto items-center selection:bg-[#f7ab0a] selection:text-gray-100'>
         <h3 className='absolute top-24 uppercase tracking-[15px] text-gray-500 text-xl'>
             Projects</h3>
         <div className='relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 scrollbar-track-gray-400/20 scrollbar-thumb-[#f7ab0a] scrollbar-thin'>
             
-                <div className='w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen'>
+                <div className='w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen '>
                   <motion.img 
                   initial={{ opacity: 0, y: -100 }}
                   transition={{ duration: 1.5 }}

@@ -13,7 +13,7 @@ export default function Card04() {
           viewport={{ once: true }}
           className='h-24 w-24 rounded-full mt-6'
           src="https://i.imgur.com/LGTjiPp.png" alt="image" /></a>
-          <div className='px-0 md:px-10 pt-5 text-left'>
+          <div className='px-0 md:px-10 pt-5 text-left '>
               <h4 className='text-xl font-light'>Debt-Removals</h4>
               <p className='font-semibold text-l mt-1'>Bloemfontein | National</p>
               <div className='flex space-x-2 my-2 mt-5'>

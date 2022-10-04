@@ -17,27 +17,27 @@ export default function WorkExp() {
     max-w-7xl px-10 justify-evenly mx-auto items-center'>
         <h3 className='absolute top-24 uppercase tracking-[15px] text-gray-500 text-xl'>clients</h3>
         
-        <div className='w-full flex space-x-5  
+        <div className='w-full flex space-x-5  selection:bg-[#f7ab0a] selection:text-gray-100 
         snap-x snap-mandatory overflow-x-scroll p-10
         scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#f7ab0a]'>
                   <div className='flex flex-col rounded-lg items-center space-y-7 flex-shrink-0
                         w-[350px] md:w-[500px] xl:w-[500px] snap-center bg-[#292929] p-10 hover:opacity-100
-                        opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden'>
+                        opacity-40 transition-opacity duration-200 overflow-hidden'>
                               <Card01 />
                   </div>
                   <div className='flex flex-col rounded-lg items-center space-y-7 flex-shrink-0
                         w-[350px] md:w-[500px] xl:w-[500px] snap-center bg-[#292929] p-10 hover:opacity-100
-                        opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden'>
+                        opacity-40 transition-opacity duration-200 overflow-hidden'>
                               <Card02 />
                   </div>
                   <div className='flex flex-col rounded-lg items-center space-y-7 flex-shrink-0
                         w-[350px] md:w-[500px] xl:w-[500px] snap-center bg-[#292929] p-10 hover:opacity-100
-                        opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden'>
+                        opacity-40 transition-opacity duration-200 overflow-hidden'>
                               <Card03 />
                   </div>
                   <div className='flex flex-col rounded-lg items-center space-y-7 flex-shrink-0
                         w-[350px] md:w-[500px] xl:w-[500px] snap-center bg-[#292929] p-10 hover:opacity-100
-                        opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden'>
+                        opacity-40 transition-opacity duration-200 overflow-hidden'>
                               <Card04 />
                   </div>
         </div>

@@ -30,7 +30,7 @@ export default function About() {
             md:rounded-lg md:w-64 md:h-95 xl:w-[300px] xl:h-[400px]'
     /> 
     
-    <div className='space-y-10 px-0 md:px-10' >
+    <div className='space-y-10 px-0 md:px-10 selection:bg-[#f7ab0a] selection:text-gray-100' >
         <h4 className='md:text-3xl text-xl font-semibold uppercase tracking-wider'>
             More about <span className='underline decoration-[#f7ab0a]'>me</span></h4>
         <p className='text-base text-gray-500 max-w-2xl'> Born Daurius Swarts, a.k.a. Ali Mora. 
