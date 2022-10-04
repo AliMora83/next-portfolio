@@ -30,27 +30,28 @@ export default function Contact({}: Props) {
         <h3 className='absolute top-24 uppercase tracking-[15px] text-gray-500 text-xl'>
          Contact</h3>
 
-         <div className='space-y-5 px-0 md:px-10 pb-10'>
-        <h4 className='text-3xl font-semibold uppercase tracking-wider'>
-            Ready to <span className='underline decoration-[#f7ab0a]'>start</span>? contact me</h4>
+         <div className='space-y-5 px-0 md:px-6 pb-10 text-center mt-10'>
+        <h4 className='text-xl md:text-2xl font-semibold uppercase tracking-wider'>
+            Ready to <span className='underline decoration-[#f7ab0a]'>start</span>? 
+            <br/>contact me</h4>
     </div>
 
-    <div className='space-y-5 pb-10'>
+    <div className='space-y-5 md:pb-10 pb-5'>
         <div className='flex items-center space-x-5 justify-center'>
             <PhoneIcon className='text-[#f7ab0a] h-7 w-7 animate-pulse'/>
-            <p className='text-xl'>+2762 456 7890</p>
+            <p className='text-sm md:text-xl'>+2762 456 7890</p>
         </div>
         <div className='flex items-center space-x-5 justify-center'>
             <EnvelopeIcon className='text-[#f7ab0a] h-7 w-7 animate-pulse'/>
-            <p className='text-xl'>ali@openmindi.co.za</p>
+            <p className='text-sm md:text-xl'>ali@openmindi.co.za</p>
         </div>
         <div className='flex items-center space-x-5 justify-center'>
             <MapPinIcon className='text-[#f7ab0a] h-7 w-7 animate-pulse'/>
-            <p className='text-xl'>South Africa - Remote</p>
+            <p className='text-sm md:text-xl'>South Africa - Remote</p>
         </div>
     </div>
-            <form onSubmit={handleSubmit(onSubmit)} className='flex flex-col space-y-2 w-fit mx-auto'>
-                <div className='flex space-x-2'>
+            <form onSubmit={handleSubmit(onSubmit)} className='flex flex-col space-y-2 w-full md:w-fit mx-auto'>
+                <div className='md:flex md:space-x-2 space-y-2'>
                     <input {...register('name')} placeholder='name' className='contactInput' type="text" />
                     <input {...register('email')} placeholder='email' className='contactInput' type="email" />
                 </div>

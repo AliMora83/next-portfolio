@@ -21,22 +21,22 @@ export default function WorkExp() {
         snap-x snap-mandatory overflow-x-scroll p-10
         scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#f7ab0a]'>
                   <div className='flex flex-col rounded-lg items-center space-y-7 flex-shrink-0
-                        w-[300px] md:w-[500px] xl:w-[500px] snap-center bg-[#292929] p-10 hover:opacity-100
+                        w-[350px] md:w-[500px] xl:w-[500px] snap-center bg-[#292929] p-10 hover:opacity-100
                         opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden'>
                               <Card01 />
                   </div>
                   <div className='flex flex-col rounded-lg items-center space-y-7 flex-shrink-0
-                        w-[300px] md:w-[500px] xl:w-[500px] snap-center bg-[#292929] p-10 hover:opacity-100
+                        w-[350px] md:w-[500px] xl:w-[500px] snap-center bg-[#292929] p-10 hover:opacity-100
                         opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden'>
                               <Card02 />
                   </div>
                   <div className='flex flex-col rounded-lg items-center space-y-7 flex-shrink-0
-                        w-[300px] md:w-[500px] xl:w-[500px] snap-center bg-[#292929] p-10 hover:opacity-100
+                        w-[350px] md:w-[500px] xl:w-[500px] snap-center bg-[#292929] p-10 hover:opacity-100
                         opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden'>
                               <Card03 />
                   </div>
                   <div className='flex flex-col rounded-lg items-center space-y-7 flex-shrink-0
-                        w-[300px] md:w-[500px] xl:w-[500px] snap-center bg-[#292929] p-10 hover:opacity-100
+                        w-[350px] md:w-[500px] xl:w-[500px] snap-center bg-[#292929] p-10 hover:opacity-100
                         opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden'>
                               <Card04 />
                   </div>
