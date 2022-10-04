@@ -3,7 +3,7 @@ import React from 'react'
 import { motion } from 'framer-motion';
 
 
-export default function Card02() {
+export default function Card03() {
   return (
     <article>
         <motion.img
@@ -12,29 +12,26 @@ export default function Card02() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           className='h-24 w-24 rounded-full xl:w-[100px] xl:h-[100px] justify-center items-center'
-          src="/udy_icon.png" alt="image" />
+          src="/idbs_icon.png" alt="image" />
           <div className='px-0 md:px-10 pt-5'>
-              <h4 className='text-xl font-light'>UDYNET WIRELESS WIFI</h4>
-              <p className='font-semibold text-l mt-1'>Bloemfontein | National</p>
+              <h4 className='text-xl font-light'>IDBS ONLINE LEARNING</h4>
+              <p className='font-semibold text-l mt-1'>Cape Town | International</p>
               <div className='flex space-x-2 my-2'>
                   <img className='h-10 w-10 rounded-full'
-                      src="/photoshop.webp"
+                      src="/indesign.webp"
                       alt="image" />
                   <img className='h-10 w-10 rounded-full'
-                      src="/premier.webp"
-                      alt="image" />
-                  <img className='h-10 w-10 rounded-full'
-                      src="/after.webp"
+                      src="/canva.webp"
                       alt="image" />
                   <img className='h-10 w-10 rounded-full'
                       src="/wordpress.webp"
                       alt="image" />
                   <img className='h-10 w-10 rounded-full'
-                      src="/canva.webp"
+                      src="/thirdweb.webp"
                       alt="image" />
               </div>
               <p className='uppercase py-5 text-gray-500 tracking-wider text-sm'>
-                  from: Feb 10 2019
+                  from: Feb 10 2020
               </p>
               <ul className='list-none space-y-4 ml-5 text-lg'>
                   <li>Managing client proposals from typesetting through to graphic design, print and production.</li>

@@ -3,6 +3,8 @@ import { motion } from 'framer-motion';
 import ExpCard from './ExpCard';
 import Card01 from './CardExp/Card01';
 import Card02 from './CardExp/Card02';
+import Card03 from './CardExp/Card03';
+import Card04 from './CardExp/Card04';
 
 
 export default function WorkExp() {
@@ -13,7 +15,7 @@ export default function WorkExp() {
     transition={{duration:1.5}}
     className='flex flex-col relative h-screen text-center md:text-left md:flex-row
     max-w-7xl px-10 justify-evenly mx-auto items-center'>
-        <h3 className='absolute top-24 uppercase tracking-[15px] text-gray-500 text-xl'>experience</h3>
+        <h3 className='absolute top-24 uppercase tracking-[15px] text-gray-500 text-xl'>clients</h3>
         
         <div className='w-full flex space-x-5  
         snap-x snap-mandatory overflow-x-scroll p-10
@@ -31,12 +33,12 @@ export default function WorkExp() {
                   <div className='flex flex-col rounded-lg items-center space-y-7 flex-shrink-0
                         w-[300px] md:w-[500px] xl:w-[500px] snap-center bg-[#292929] p-10 hover:opacity-100
                         opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden'>
-                              <Card01 />
+                              <Card03 />
                   </div>
                   <div className='flex flex-col rounded-lg items-center space-y-7 flex-shrink-0
                         w-[300px] md:w-[500px] xl:w-[500px] snap-center bg-[#292929] p-10 hover:opacity-100
                         opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden'>
-                              <Card02 />
+                              <Card04 />
                   </div>
         </div>
         </motion.div>

@@ -3,7 +3,7 @@ import React from 'react'
 import { motion } from 'framer-motion';
 
 
-export default function Card02() {
+export default function Card04() {
   return (
     <article>
         <motion.img
@@ -12,29 +12,26 @@ export default function Card02() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           className='h-24 w-24 rounded-full xl:w-[100px] xl:h-[100px] justify-center items-center'
-          src="/udy_icon.png" alt="image" />
+          src="/debt_icon.png" alt="image" />
           <div className='px-0 md:px-10 pt-5'>
-              <h4 className='text-xl font-light'>UDYNET WIRELESS WIFI</h4>
+              <h4 className='text-xl font-light'>DEBT-REMOVALS</h4>
               <p className='font-semibold text-l mt-1'>Bloemfontein | National</p>
               <div className='flex space-x-2 my-2'>
-                  <img className='h-10 w-10 rounded-full'
-                      src="/photoshop.webp"
+                    <img className='h-10 w-10 rounded-full'
+                      src="/html.webp"
                       alt="image" />
-                  <img className='h-10 w-10 rounded-full'
-                      src="/premier.webp"
-                      alt="image" />
-                  <img className='h-10 w-10 rounded-full'
-                      src="/after.webp"
-                      alt="image" />
-                  <img className='h-10 w-10 rounded-full'
-                      src="/wordpress.webp"
+                    <img className='h-10 w-10 rounded-full'
+                      src="/indesign.webp"
                       alt="image" />
                   <img className='h-10 w-10 rounded-full'
                       src="/canva.webp"
                       alt="image" />
+                  <img className='h-10 w-10 rounded-full'
+                      src="/tailwind.webp"
+                      alt="image" />
               </div>
               <p className='uppercase py-5 text-gray-500 tracking-wider text-sm'>
-                  from: Feb 10 2019
+                  from: Feb 10 2021
               </p>
               <ul className='list-none space-y-4 ml-5 text-lg'>
                   <li>Managing client proposals from typesetting through to graphic design, print and production.</li>

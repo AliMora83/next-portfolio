@@ -36,7 +36,7 @@ function Hero() {
                 </h1>
                 <div className='pt-5'>
                     <Link href="#about"><button className='heroButton'>About</button></Link>
-                    <Link href="#exp"><button className='heroButton'>Experience</button></Link>
+                    <Link href="#clients"><button className='heroButton'>Clients</button></Link>
                     <Link href="#skills"><button className='heroButton'>Skills</button></Link>
                     <Link href="#projects"><button className='heroButton'>Projects</button></Link>
                     
