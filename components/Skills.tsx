@@ -21,9 +21,9 @@ export default function Skills() {
             skills</h3>
 
         <h3 className='absolute top-36 uppercase tracking-[3px] text-gray-500 text-sm'>
-            Hover over skill icon to see name</h3>
+            Hover over skill icon</h3>
 
-        <div className="grid grid-cols-4 gap-5">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-5">
            
               <Skill01 />
               <Skill02 />

@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 
-export default function Skill01(directionLeft: any) {
+export default function Skill5(directionLeft: any) {
   return (
     <motion.div
     initial={{opacity:0}}
