@@ -17,7 +17,7 @@ const Home = () => {
       <Head>
         <title>Ali Mora</title>
         <meta name="description" content="Ali Mora Portfolio" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/omi.png" />
       </Head>
       <div>
         <Header />
