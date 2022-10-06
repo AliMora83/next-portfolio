@@ -29,9 +29,9 @@ export default function Projects({}: Props) {
                   src="/project_nft.png" alt="" />
                   <p className='text-[#f7ab0a] uppercase text-base'> 
                    Case study 1 of 3</p>
-                  <h4 className='text-xl md:text-3xl font-semibold text-center uppercase tracking-wider'>
+                  <h4 className='text-xl md:text-3xl font-semibold text-center uppercase tracking-widest'>
                     NFT Marketplace</h4>
-                  <p className='text-base text-gray-300 text-center max-w-lg'>
+                  <p className='text-base text-gray-400 text-center max-w-lg'>
                   Free State, South Africa’s first digital marketplace for crypto collectibles and non-fungible tokens (NFTs). Buy, sell, and discover exclusive local digital items.</p>
                 
                   <a href="#">
@@ -48,7 +48,7 @@ export default function Projects({}: Props) {
                   src="/project_dao.png" alt="" />
                   <p className='text-[#f7ab0a] uppercase text-base'> 
                    Case study 2 of 3</p>
-                  <h4 className='text-xl md:text-3xl font-semibold text-center uppercase tracking-wider'>
+                  <h4 className='text-xl md:text-3xl font-semibold text-center uppercase tracking-widest'>
                     Web3 DAO</h4>
                   <p className='text-base text-gray-400 text-center max-w-lg'>
                   Decentralized Autonomous Organization. The blockchain application automates decisions through the consensus between participants. Usually owns the treasury in cryptocurrency value.</p>
