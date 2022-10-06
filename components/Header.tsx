@@ -56,8 +56,10 @@ function Header() {
             duration: 1,
         }}>
         <a href="#contact">
-            <SocialIcon className='cursor-pointer' network='email' fgColor='gray' bgColor='transparent'/>
-            <p className='uppercase hidden md:inline-flex text-sm text-gray-400'>get in touch</p></a>
+            <SocialIcon className='cursor-pointer' network='email' fgColor='gray' bgColor='transparent'/></a>
+           <a href="https://invincible-guavaberry-51f.notion.site/DS-Resume-2022-85246e7b41a143919dd814ef2e8f5263" target="_blank" rel='noreferrer'>
+            <p className='uppercase hidden md:inline-flex text-sm text-gray-400 hover:text-gray-100'>
+                View My Resume</p></a>
         </motion.div>
     </header>
   )}
