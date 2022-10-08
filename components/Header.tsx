@@ -26,19 +26,27 @@ function Header() {
                 <SocialIcon url='https://github.com/alimora83'
                 target='_blank' 
                 fgColor='gray' 
-                bgColor='transparent'/>
+                bgColor='transparent'
+                style={{ height: 32, width: 32 }}
+                className="hover:scale-150"/>
                 <SocialIcon url='https://www.facebook.com/Dauriuss/'
                 target='_blank' 
                 fgColor='gray' 
-                bgColor='transparent'/>
+                bgColor='transparent'
+                style={{ height: 32, width: 32 }}
+                className="hover:scale-150"/>
                 <SocialIcon url='https://www.linkedin.com/in/daurius-ali-swarts-1b151420b/'
                 target='_blank' 
                 fgColor='gray' 
-                bgColor='transparent'/>
+                bgColor='transparent'
+                style={{ height: 32, width: 32 }}
+                className="hover:scale-150"/>
                 <SocialIcon url='https://twitter.com/swarts_d'
                 target='_blank' 
                 fgColor='gray' 
-                bgColor='transparent'/>
+                bgColor='transparent'
+                style={{ height: 32, width: 32 }}
+                className="hover:scale-150"/>
             
         </motion.div>
         <motion.div 
@@ -56,9 +64,9 @@ function Header() {
             duration: 1,
         }}>
         <a href="#contact">
-            <SocialIcon className='cursor-pointer' network='email' fgColor='gray' bgColor='transparent'/></a>
+            <SocialIcon className='cursor-pointer hover:scale-125' network='email' fgColor='gray' bgColor='transparent'/></a>
            <a href="https://invincible-guavaberry-51f.notion.site/DS-Resume-2022-85246e7b41a143919dd814ef2e8f5263" target="_blank" rel='noreferrer'>
-            <p className='uppercase hidden md:inline-flex text-sm text-gray-400 hover:text-gray-100'>
+            <p className='uppercase hover:scale-110 hidden md:inline-flex text-sm text-gray-400 hover:text-gray-100 font-mont ml-2'>
                 View My Resume</p></a>
         </motion.div>
     </header>

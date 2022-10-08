@@ -6,6 +6,9 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    fontFamily: {
+      mont: ["Montserrat", "sans-serif"],
+    },
   },
   plugins: [require("tailwind-scrollbar")],
 };

@@ -26,28 +26,28 @@ export default function Contact({}: Props) {
     whileInView={{opacity:1}}
     transition={{duration:1.5}} 
     className='flex flex-col relative h-screen text-center md:text-left md:flex-col
-    max-w-7xl px-10 mx-auto items-center justify-center'>
+    max-w-7xl px-10 mx-auto items-center justify-center selection:bg-[#f7ab0a] selection:text-gray-100'>
         <h3 className='absolute top-24 uppercase tracking-[15px] text-gray-500 text-xl'>
          Contact</h3>
 
-         <div className='space-y-5 px-0 md:px-6 pb-10 text-center mt-10'>
-        <h4 className='text-xl md:text-2xl font-semibold uppercase tracking-wider'>
+         <div className='space-y-5 px-0 md:px-6 pb-10 text-center mt-10 '>
+        <h2 className='text-lg'>
             Ready to <span className='underline decoration-[#f7ab0a]'>start</span>? 
-            <br/>contact me</h4>
+            <br/>contact me</h2>
     </div>
 
     <div className='space-y-5 md:pb-10 pb-5'>
         <div className='flex items-center space-x-5 justify-center'>
             <PhoneIcon className='text-[#f7ab0a] h-7 w-7 animate-pulse'/>
-            <p className='text-sm md:text-xl'>+2762 456 7890</p>
+            <p className='text-sm md:text-base'>+2762 456 7890</p>
         </div>
         <div className='flex items-center space-x-5 justify-center'>
             <EnvelopeIcon className='text-[#f7ab0a] h-7 w-7 animate-pulse'/>
-            <p className='text-sm md:text-xl'>ali@openmindi.co.za</p>
+            <p className='text-sm md:text-base'>ali@openmindi.co.za</p>
         </div>
         <div className='flex items-center space-x-5 justify-center'>
             <MapPinIcon className='text-[#f7ab0a] h-7 w-7 animate-pulse'/>
-            <p className='text-sm md:text-xl'>South Africa - Remote</p>
+            <p className='text-sm md:text-base'>South Africa - Remote</p>
         </div>
     </div>
             <form onSubmit={handleSubmit(onSubmit)} className='flex flex-col space-y-2 w-full md:w-fit mx-auto'>
