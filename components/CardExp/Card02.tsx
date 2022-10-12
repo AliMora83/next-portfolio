@@ -21,7 +21,7 @@ export default function Card02() {
                       src="/photoshop.webp"
                       alt="image" />
                   <img className='h-10 w-10 rounded-full'
-                      src="/premier.webp"
+                      src="/premiere.webp"
                       alt="image" />
                   <img className='h-10 w-10 rounded-full'
                       src="/after.webp"
@@ -46,3 +46,5 @@ export default function Card02() {
     </article>
   )
 }
+
+
