@@ -30,13 +30,13 @@ export default function Contact({}: Props) {
         <h3 className='absolute top-24 uppercase tracking-[15px] text-gray-500 text-xl'>
          Contact</h3>
 
-         <div className='space-y-5 px-0 md:px-6 pb-10 text-center mt-10 '>
-        <h2 className='text-lg'>
+         <div className='space-y-5 px-0 md:px-6 text-center mt-32 mb-5 '>
+        <h2 className='md:text-lg text-base'>
             Ready to <span className='underline decoration-[#f7ab0a]'>start</span>? 
             <br/>contact me</h2>
     </div>
 
-    <div className='space-y-5 md:pb-10 pb-5'>
+    <div className='space-y-3 md:pb-10 pb-5'>
         <div className='flex items-center space-x-5 justify-center'>
             <PhoneIcon className='text-[#f7ab0a] h-7 w-7 animate-pulse'/>
             <p className='text-sm md:text-base'>+2762 456 7890</p>

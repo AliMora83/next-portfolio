@@ -27,7 +27,7 @@ export default function Projects({}: Props) {
                   transition={{ duration: 1.5 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
-                  className="md:h-80 h-54"
+                  className="md:h-80 h-44 mt-14"
                   src="/project_nft.png" alt="" />
                   <p className='text-[#f7ab0a] uppercase text-sm'> 
                    Case study 1 of 3</p>
@@ -46,7 +46,7 @@ export default function Projects({}: Props) {
                   transition={{ duration: 1.5 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
-                  className="md:h-80 h-54"
+                  className="md:h-80 h-44 mt-14"
                   src="/project_dao.png" alt="" />
                   <p className='text-[#f7ab0a] uppercase text-sm'> 
                    Case study 2 of 3</p>
@@ -66,7 +66,7 @@ export default function Projects({}: Props) {
                   transition={{ duration: 1.5 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
-                  className="md:h-80 h-54"
+                  className="md:h-80 h-44 mt-14"
                   src="/project_draw.png" alt="" /></a>
                    <p className='text-[#f7ab0a] uppercase text-sm'> 
                    Case study 3 of 3</p>

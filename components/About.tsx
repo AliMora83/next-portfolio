@@ -26,7 +26,7 @@ export default function About() {
         whileInView={{x: 0, opacity: 1}}
             src="/ali_mora2.jpg"
             alt='image'
-            className='-mb-20 mt-10 md:mb-0 flex-shrink-0 w-24 h-24 rounded-full object-cover
+            className='md:mb-0 mt-28 flex-shrink-0 w-24 h-24 rounded-full object-cover
             md:rounded-lg md:w-64 md:h-95 xl:w-[300px] xl:h-[400px]'
     /> 
     
