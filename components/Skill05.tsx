@@ -11,7 +11,7 @@ export default function Skill5(directionLeft: any) {
     className='flex relative group cursor-pointer'>
         <motion.img 
         initial={{
-            x: directionLeft ? 200 : -200,
+            x: directionLeft ? -200 : 200,
             opacity: 0
         }}
         transition={{duration:1}}

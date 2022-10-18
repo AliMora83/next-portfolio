@@ -27,9 +27,9 @@ function Hero() {
 
             <div className='z-20'>
             
-              <h2 className='uppercase text-sm text-gray-500 pb-2 pt-5 tracking-[15px]
+              <h2 className='uppercase text-sm text-gray-500 pb-2 pt-5 tracking-[8px]
                selection:bg-[#f7ab0a] selection:text-gray-100'>
-                  software engineer</h2>
+                  full stack <span className='text-white animate-pulse'>web3</span> developer</h2>
             
                 <h1 className='text-xl lg:text-6xl font-semibold px-10'>
                 <span className='mr-3'>{text}</span>
