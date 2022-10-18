@@ -8,6 +8,8 @@ import Skill05 from './Skill05';
 import Skill06 from './Skill06';
 import Skill07 from './Skill07';
 import Skill08 from './Skill08';
+import Skill10 from './Skill10';
+import Skill09 from './Skill09';
 
 export default function Skills() {
   return (
@@ -23,7 +25,7 @@ export default function Skills() {
         <h4 className='absolute top-36 animate-pulse'>
             Hover over skill icon</h4>
 
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-5">
+        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-5">
            
               <Skill01 />
               <Skill02 />
@@ -33,6 +35,8 @@ export default function Skills() {
               <Skill06 />
               <Skill07 />
               <Skill08 />
+              <Skill09 />
+              <Skill10 />
         </div>
     </motion.div>
   )
