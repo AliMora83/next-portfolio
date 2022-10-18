@@ -16,7 +16,7 @@ type Props = {}
 export default function Contact({}: Props) {
     const { register, handleSubmit} = useForm<Inputs>();
     const onSubmit: SubmitHandler<Inputs> = formData => {
-        window.location.href = `mailto:ali@openmindi?subject=${formData.subject}&body=Hi, my name is ${formData.name}. ${formData.message} ${formData.email}`
+        window.location.href = `mailto:ali@openmindi.co.za?subject=${formData.subject}&body=Hi, my name is ${formData.name}. ${formData.message} ${formData.email}`
     };
 
 
