@@ -14,7 +14,7 @@ export default function Card02() {
           className='h-24 w-24 rounded-full mt-6'
           src="/udy_icon.png" alt="image" /></a>
           <div className='px-0 md:px-10 pt-5 text-left'>
-              <h5 className=''>UDYNET Wireless Wi-Fi</h5>
+              <h5 className='text-gray-200'>UDYNET Wireless Wi-Fi</h5>
               <p className='text-left font-medium text-l mt-1'>Bloemfontein | National</p>
               <div className='flex space-x-2 my-2 mt-5'>
                   <img className='h-10 w-10 rounded-full'

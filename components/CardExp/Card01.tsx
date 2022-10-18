@@ -14,7 +14,7 @@ export default function Card01() {
           className='h-24 w-24 rounded-full mt-6'
           src="/omi_logo.png" alt="image" /></a>
           <div className='px-0 md:px-10 pt-5 text-left'>
-              <h5 className=''>Open Mind Industries</h5>
+              <h5 className='text-gray-200'>Open Mind Industries</h5>
               <p className='text-left font-medium mt-1'>Bloemfontein | International</p>
               <div className='flex space-x-2 my-2 mt-5'>
                   <img className='h-10 w-10 rounded-full'

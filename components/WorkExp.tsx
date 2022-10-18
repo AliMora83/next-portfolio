@@ -5,6 +5,7 @@ import Card01 from './CardExp/Card01';
 import Card02 from './CardExp/Card02';
 import Card03 from './CardExp/Card03';
 import Card04 from './CardExp/Card04';
+import Card05 from './CardExp/Card05';
 
 
 export default function WorkExp() {
@@ -40,6 +41,11 @@ export default function WorkExp() {
                         w-[350px] md:w-[500px] xl:w-[500px] snap-center bg-[#292929] p-10 hover:opacity-100
                         opacity-40 transition-opacity duration-200 overflow-hidden'>
                               <Card04 />
+                  </div>
+                  <div className='flex flex-col rounded-lg items-center space-y-7 flex-shrink-0
+                        w-[350px] md:w-[500px] xl:w-[500px] snap-center bg-[#292929] p-10 hover:opacity-100
+                        opacity-40 transition-opacity duration-200 overflow-hidden'>
+                              <Card05 />
                   </div>
         </div>
         </motion.div>

@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import Link from 'next/link';
 
 
 
@@ -41,7 +42,10 @@ export default function About() {
             NAMKA Crypto Draw, is my third Web3 Dapp. Currently working on the business model and a few more features before testing.
             South Africa is my home! Looking forward to traveling and programming a better future with everyone I meet.
             </p>
-        
+            
+            <Link href="https://www.udemy.com/certificate/UC-3a085922-4210-4387-9452-efcec9475ff8/" target="_blank">
+                <button className='heroButton'>View Certificate</button></Link>
+
     </div>
     </motion.div>
   )

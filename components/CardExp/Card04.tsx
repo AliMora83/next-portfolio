@@ -14,7 +14,7 @@ export default function Card04() {
           className='h-24 w-24 rounded-full mt-6'
           src="https://i.imgur.com/LGTjiPp.png" alt="image" /></a>
           <div className='px-0 md:px-10 pt-5 text-left '>
-              <h4 className=''>Debt-Removals</h4>
+              <h5 className='text-gray-200'>Debt-Removals</h5>
               <p className='text-left font-medium text-l mt-1'>Bloemfontein | National</p>
               <div className='flex space-x-2 my-2 mt-5'>
                     <img className='h-10 w-10 rounded-full'
