@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { PhoneIcon,
         MapPinIcon, EnvelopeIcon } from '@heroicons/react/24/solid'
 import { useForm, SubmitHandler } from "react-hook-form";
+import {useState} from 'react';
 
 type Inputs = {
   name: string,
@@ -14,9 +15,13 @@ type Inputs = {
 type Props = {}
 
 export default function Contact({}: Props) {
+    const [firstName, setFirstName] = useState('');
+    const [email, setEmail] = useState('');
+    const [subject, setSubject] = useState('');
+    const [message, setMessage] = useState('');
     const { register, handleSubmit} = useForm<Inputs>();
     const onSubmit: SubmitHandler<Inputs> = formData => {
-        window.location.href = `mailto:ali@openmindi.co.za?subject=${formData.subject}&body=Hi, my name is ${formData.name}. ${formData.message} ${formData.email}`
+        window.location.href = `mailto:ali@openmindi.co.za?subject=${formData.subject}&body=Hi, my name is ${formData.name}. ${formData.message}. Here is my email ${formData.email}`
     };
 
 

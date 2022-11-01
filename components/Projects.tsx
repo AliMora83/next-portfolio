@@ -13,7 +13,7 @@ export default function Projects({}: Props) {
     whileInView={{opacity:1}}
     transition={{duration:1.5}} 
     className='flex flex-col relative h-screen text-center md:text-left md:flex-row
-    max-w-7xl px-10 justify-evenly mx-auto items-center selection:bg-[#f7ab0a] selection:text-gray-100'>
+    max-w-6xl px-10 justify-evenly mx-auto items-center selection:bg-[#f7ab0a] selection:text-gray-100'>
         <h3 className='absolute top-24'>
             Projects</h3>
         <div className='relative w-full flex overflow-x-scroll overflow-y-hidden 
@@ -21,14 +21,14 @@ export default function Projects({}: Props) {
             
                 <div className='w-screen flex-shrink-0 snap-center flex flex-col space-y-5 scroll-px-2
                 items-center justify-center p-20 md:p-44 h-screen '>
-                  
+                  <a href="https://nk-marketplace.vercel.app/" target="_blank" rel='noreferrer'>
                   <motion.img 
                   initial={{ opacity: 0, y: -100 }}
                   transition={{ duration: 1.5 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   className="md:h-80 h-44 mt-14"
-                  src="/project_nft.png" alt="" />
+                  src="/project_nft.png" alt="" /></a>
                   <p className='text-[#f7ab0a] uppercase text-sm'> 
                    Case study 1 of 3</p>
                   <h2 className=''>
@@ -36,8 +36,8 @@ export default function Projects({}: Props) {
                   <p className=''>
                   Free State, South Africa’s first digital marketplace for crypto collectibles and non-fungible tokens (NFTs). Buy, sell, and discover exclusive local digital items.</p>
                 
-                  <a href="#">
-                    <button className='heroButton'>Coming Soon</button></a>
+                  <a href="https://nk-marketplace.vercel.app/" target="_blank" rel='noreferrer'>
+                    <button className='heroButton'>NAMKA MARKETPLACE</button></a>
 
                 </div>
                 <div className='w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen'>
