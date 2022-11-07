@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion';
-import Quizgame from './Quizgame';
+import Quizgame from './templates/Quizgame';
 
 
 
