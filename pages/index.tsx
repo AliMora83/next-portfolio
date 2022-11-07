@@ -6,6 +6,7 @@ import Contact from '../components/Contact'
 import Header from '../components/Header'
 import Hero from '../components/Hero'
 import Projects from '../components/Projects'
+import Python from '../components/Python/python'
 import Skills from '../components/Skills'
 import WorkExp from '../components/WorkExp'
 
@@ -40,6 +41,10 @@ const Home = () => {
        
         <section id='projects' className='snap-start'>
           <Projects />
+        </section>
+       
+        <section id='python' className='snap-start'>
+          <Python />
         </section>
        
         <section id='contact' className='snap-start'>
