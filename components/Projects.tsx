@@ -21,7 +21,7 @@ export default function Projects({}: Props) {
             
                 <div className='w-screen flex-shrink-0 snap-center flex flex-col space-y-5 scroll-px-2
                 items-center justify-center p-20 md:p-44 h-screen '>
-                  <a href="https://nk-marketplace.vercel.app/" target="_blank" rel='noreferrer'>
+                  <a href="https://namka-marketplace.netlify.app/" target="_blank" rel='noreferrer'>
                   <motion.img 
                   initial={{ opacity: 0, y: -100 }}
                   transition={{ duration: 1.5 }}
