@@ -28,7 +28,7 @@ export default function Projects({}: Props) {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   className="md:h-80 h-44 mt-14"
-                  src="/project_nft.png" alt="" /></a>
+                  src="/nk_nft.png" alt="" /></a>
                   <p className='text-[#f7ab0a] uppercase text-sm'> 
                    Case study 1 of 3</p>
                   <h2 className=''>
