@@ -36,7 +36,7 @@ export default function Projects({}: Props) {
                   <p className=''>
                   Free State, South Africa’s first digital marketplace for crypto collectibles and non-fungible tokens (NFTs). Buy, sell, and discover exclusive local digital items.</p>
                 
-                  <a href="https://nk-marketplace.vercel.app/" target="_blank" rel='noreferrer'>
+                  <a href="https://namka-marketplace.netlify.app/" target="_blank" rel='noreferrer'>
                     <button className='heroButton'>NAMKA MARKETPLACE</button></a>
 
                 </div>

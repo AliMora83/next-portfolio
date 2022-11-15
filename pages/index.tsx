@@ -44,7 +44,7 @@ const Home = () => {
         </section>
        
         <section id='python' className='snap-start'>
-          <Python />
+          {/* <Python /> */}
         </section>
        
         <section id='contact' className='snap-start'>
