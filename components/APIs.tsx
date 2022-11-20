@@ -21,7 +21,7 @@ export default function APIs() {
     className='flex flex-col relative h-screen text-center md:text-left md:flex-row
     max-w-7xl px-10 justify-evenly mx-auto items-center selection:bg-[#f7ab0a] selection:text-gray-100'>
         <h3 className='absolute top-24'>
-            namka api </h3>
+            Apps to test </h3>
         
         <div className='w-full flex space-x-5  
         snap-x snap-mandatory overflow-x-scroll p-10

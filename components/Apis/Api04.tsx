@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 
 export default function Api04() {
   return (
-    <article><a href="https://alimora83.github.io/Simon-Game/" target="_blank" rel='noreferrer'>
+    <article><a href="https://alimora83.github.io/Drum-Kit/" target="_blank" rel='noreferrer'>
         <motion.img
           initial={{ opacity: 0, y: -100 }}
           transition={{ duration: 1.5 }}
