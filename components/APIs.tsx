@@ -10,6 +10,7 @@ import Api01 from './Apis/Api01';
 import Api02 from './Apis/Api02';
 import Api03 from './Apis/Api03';
 import Api04 from './Apis/Api04';
+import Api05 from './Apis/Api05';
 
 
 export default function APIs() {
@@ -45,6 +46,11 @@ export default function APIs() {
                         w-[350px] md:w-[500px] xl:w-[500px] snap-center bg-[#292929] p-10 hover:opacity-100
                         opacity-40 transition-opacity duration-200 overflow-hidden'>
                               <Api04 />
+                  </div>
+                  <div className='flex flex-col rounded-lg items-center space-y-7 flex-shrink-0
+                        w-[350px] md:w-[500px] xl:w-[500px] snap-center bg-[#292929] p-10 hover:opacity-100
+                        opacity-40 transition-opacity duration-200 overflow-hidden'>
+                              <Api05 />
                   </div>
         </div>
         </motion.div>
