@@ -2,12 +2,14 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import About from '../components/About'
+import APIs from '../components/APIs'
 import Contact from '../components/Contact'
 import Header from '../components/Header'
 import Hero from '../components/Hero'
 import Projects from '../components/Projects'
 import Python from '../components/Python/Python'
 import Skills from '../components/Skills'
+import Videos from '../components/Videos'
 import WorkExp from '../components/WorkExp'
 
 
@@ -42,9 +44,17 @@ const Home = () => {
         <section id='projects' className='snap-start'>
           <Projects />
         </section>
+        
+        <section id='api' className='snap-start'>
+          <APIs />
+        </section>
        
         <section id='python' className='snap-start'>
           {/* <Python /> */}
+        </section>
+       
+        <section id='videos' className='snap-start'>
+          <Videos />
         </section>
        
         <section id='contact' className='snap-start'>
