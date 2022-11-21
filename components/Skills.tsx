@@ -1,15 +1,15 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import Skill01 from './Skill01';
-import Skill02 from './Skill02';
-import Skill03 from './Skill03';
-import Skill04 from './Skill04';
-import Skill05 from './Skill05';
-import Skill06 from './Skill06';
-import Skill07 from './Skill07';
-import Skill08 from './Skill08';
-import Skill10 from './Skill10';
-import Skill09 from './Skill09';
+import Skill01 from './Skills/Skill01';
+import Skill02 from './Skills/Skill02';
+import Skill03 from './Skills/Skill03';
+import Skill04 from './Skills/Skill04';
+import Skill05 from './Skills/Skill05';
+import Skill06 from './Skills/Skill06';
+import Skill07 from './Skills/Skill07';
+import Skill08 from './Skills/Skill08';
+import Skill09 from './Skills/Skill09';
+import Skill10 from './Skills/Skill10';
 
 export default function Skills() {
   return (
