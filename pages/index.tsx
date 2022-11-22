@@ -18,9 +18,12 @@ const Home = () => {
     scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#f7ab0a]" >
       <Head>
         <title>Ali Mora</title>
+        <html lang="en-us"/>
         <meta name="description" content="Ali Mora Portfolio" />
         <link rel="icon" href="/omi.png" />
-      </Head>
+        <link rel='canonical' href='/' />
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+        </Head>
       <div>
         <Header />
         

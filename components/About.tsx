@@ -35,17 +35,20 @@ export default function About() {
         <h2 className='md:text-left'>
             More about <span className='underline decoration-[#f7ab0a]'>me</span></h2>
         <p className='text-sm text-gray-500 max-w-2xl text-left'> Born Daurius Swarts, a.k.a. Ali Mora. 
-        With over 15 years Advertising Experience, building brands for small companies. I made use of Adobe CC for Graphic Design, Visual Effects, DTP and Prototyping.
-        Front-end development/Ui/Ux, I use Canva, Figma and Miro. Back-end development includeds JavaScript, Reactjs, Node, MongoDB and Sanity.
+        With over a decade Advertising Experience, building brands for small companies. I made use of Adobe CC for Graphic Design, Visual Effects, DTP and Prototyping.
+        Now, as a Fullstack Web3 Developer, I use Tailwind CSS, React and Next.js, MongoDB and ThirdWeb for Smart Contracts.
         </p>
         <p className='text-sm text-gray-500 max-w-2xl text-left'>
-            NAMKA Crypto Draw, is my third Web3 Dapp. Currently working on the business model and a few more features before testing.
+            I am open to partner with Individuals(Content Creators, Artists, Teachers) or Organisations (Real Estate, FinTech, Art Galleries).
             South Africa is my home! Looking forward to traveling and programming a better future with everyone I meet.
             </p>
-            
-            <Link href="https://www.udemy.com/certificate/UC-3a085922-4210-4387-9452-efcec9475ff8/" target="_blank">
-                <button className='heroButton'>View Certificate</button></Link>
-
+            <div>
+            <a href="https://www.udemy.com/certificate/UC-3a085922-4210-4387-9452-efcec9475ff8/" target="_blank" rel='noreferrer'>
+                    <button className='heroButton'>Udemy Certificate</button></a>
+            <br/>
+            <a href="https://cs50.harvard.edu/x/2022/syllabus/" target="_blank" rel='noreferrer'>
+                    <button className='heroButton'>CS50 Syllabus</button></a>
+            </div>
     </div>
     </motion.div>
   )
