@@ -42,13 +42,13 @@ export default function About() {
             I am open to partner with Individuals(Content Creators, Artists, Teachers) or Organisations (Real Estate, FinTech, Art Galleries).
             South Africa is my home! Looking forward to traveling and programming a better future with everyone I meet.
             </p>
-            
-            <Link href="https://www.udemy.com/certificate/UC-3a085922-4210-4387-9452-efcec9475ff8/" target="_blank" rel="noopener noreferrer">
-            <button className='heroButton'>View Certificate</button></Link>
+            <div>
+            <a href="https://www.udemy.com/certificate/UC-3a085922-4210-4387-9452-efcec9475ff8/" target="_blank" rel='noreferrer'>
+                    <button className='heroButton'>Udemy Certificate</button></a>
             <br/>
-            <Link href="https://cs50.harvard.edu/x/2022/syllabus/" target="_blank" rel="noopener noreferrer">
-            <button className='heroButton'>CS50 Syllabus</button></Link>
-
+            <a href="https://cs50.harvard.edu/x/2022/syllabus/" target="_blank" rel='noreferrer'>
+                    <button className='heroButton'>CS50 Syllabus</button></a>
+            </div>
     </div>
     </motion.div>
   )
