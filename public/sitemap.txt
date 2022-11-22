@@ -1,1 +1,2 @@
 https://alimora-portfolio.vercel.app/
+https://alimora-portfolio.vercel.app/sitemap
