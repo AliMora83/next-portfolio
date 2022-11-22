@@ -22,6 +22,7 @@ const Home = () => {
         <meta name="description" content="Ali Mora Portfolio" />
         <link rel="icon" href="/omi.png" />
         <link rel='canonical' href='/' />
+        <meta name="google-site-verification" content="hAS38lw5rhGIBRXebp6UTbhPAvItZMVYdbfuViedR_c" />
         {/* <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" /> */}
         </Head>
       <div>
