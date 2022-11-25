@@ -47,6 +47,12 @@ function Header() {
                 bgColor='transparent'
                 style={{ height: 32, width: 32 }}
                 className="hover:scale-150"/>
+                <SocialIcon url='https://api.whatsapp.com/send?phone=623705952'
+                target='_blank' 
+                fgColor='gray' 
+                bgColor='transparent'
+                style={{ height: 32, width: 32 }}
+                className="hover:scale-150"/>
             
         </motion.div>
         <motion.div 

@@ -42,10 +42,13 @@ export default function Contact({}: Props) {
     </div>
 
     <div className='space-y-3 md:pb-10 pb-5'>
-        <div className='flex items-center space-x-5 justify-center'>
+        
+        <a href="https://api.whatsapp.com/send?phone=623705952" target='_blank' rel='noreferrer'>
+            <div className='flex items-center space-x-5 justify-center'>
             <PhoneIcon className='text-[#f7ab0a] h-7 w-7 animate-pulse'/>
             <p className='text-sm md:text-base'>+2762 456 7890</p>
-        </div>
+        </div></a>
+
         <div className='flex items-center space-x-5 justify-center'>
             <EnvelopeIcon className='text-[#f7ab0a] h-7 w-7 animate-pulse'/>
             <p className='text-sm md:text-base'>ali@openmindi.co.za</p>
