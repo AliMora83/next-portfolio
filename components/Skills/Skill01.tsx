@@ -22,10 +22,11 @@ export default function Skill01(directionLeft: any) {
 
         <div className="absolute opacity-0 rounded-full border border-gray-500 object-cover w-16 h-16
         filter group-hover:opacity-80 transition duration-300 ease-in-out md:w-24 md:h-24 group-hover:bg-white z-0">
+          <a href="https://reactjs.org/" target="_blank" rel='noreferrer'>
             <div className='flex items-center justify-center h-full'>
-                <p className='font-bold text-black opacity-100 text-lg'>
+                <p className='text-sm font-bold text-black opacity-100'>
                     REACT.JS</p>
-            </div>
+            </div></a>
         </div>
     </motion.div>
   )
