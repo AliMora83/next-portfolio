@@ -60,7 +60,7 @@ export default function Projects({}: Props) {
 
                 </div>
                 <div className='w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen'>
-                <a href="https://nk-crypto-draw.vercel.app/" target="_blank" rel='noreferrer'>
+                <a href="https://nk-crypto-draw-02.netlify.app/" target="_blank" rel='noreferrer'>
                   <motion.img 
                   initial={{ opacity: 0, y: -100 }}
                   transition={{ duration: 1.5 }}
@@ -76,7 +76,7 @@ export default function Projects({}: Props) {
                   A tool for raising funds, by buying a certian amount of tickets, and distributing rewards to the bearer for the winning ticket, drawn at random. 
                   It is a game whose victory or failure is lead by probability. </p>
                   
-                  <a href="https://nk-crypto-draw.vercel.app/" target="_blank" rel='noreferrer'>
+                  <a href="https://nk-crypto-draw-02.netlify.app/" target="_blank" rel='noreferrer'>
                     <button className='heroButton'>NAMKA CRYPTO DRAW</button></a>
                 </div>
             
