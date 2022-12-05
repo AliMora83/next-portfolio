@@ -65,7 +65,7 @@ const Home = () => {
         <div className='flex items-center justify-center'>
           <img 
           className='h-10 w-10 rounded-full filter grayscale hover:grayscale-0'
-          src="/ali_mora.png" alt="image" /></div>
+          src="/omi.png" alt="image" /></div>
       </footer>
     </Link>
       </div>    
