@@ -22,7 +22,7 @@ export default function Card04() {
       </a>
       <div className="px-0 md:px-10 pt-5 text-left ">
         <h5 className="text-gray-200">
-          Digital Systems Information
+          Digital Information Systems
         </h5>
         <p className="text-left font-medium text-l mt-1">
           Cape Town | National
