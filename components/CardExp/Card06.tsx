@@ -2,11 +2,11 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-export default function Card04() {
+export default function Card06() {
   return (
     <article>
       <a
-        href="https://digitalsol.co.za/"
+        href="https://namka.africa/"
         target="_blank"
         rel="noreferrer"
       >
@@ -16,16 +16,16 @@ export default function Card04() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           className="h-24 w-24 rounded-full mt-6"
-          src="/dis-logo.png"
+          src="/nk_name.png"
           alt="image"
         />
       </a>
       <div className="px-0 md:px-10 pt-5 text-left ">
         <h5 className="text-gray-200">
-          Digital Information Systems
+          NAMKA Business Directory
         </h5>
         <p className="text-left font-medium text-l mt-1">
-          Cape Town | National
+          Free State | Local Municipalities
         </p>
         <div className="flex space-x-2 my-2 mt-5">
           <img
@@ -50,11 +50,12 @@ export default function Card04() {
           />
         </div>
         <p className="uppercase py-5 text-gray-500 text-left tracking-wider text-xs">
-          from: Feb 10 2021
+          from: Feb 10 2023
         </p>
         <ul className="list-none space-y-4 ml-5 text-sm text-gray-300">
           <li>Full-stack Web Development</li>
-          <li>Graphic Design</li>
+          <li>Brand/CI Development</li>
+          <li>Graphic Design, SEO & Analytics</li>
         </ul>
       </div>
     </article>
