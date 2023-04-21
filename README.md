@@ -25,6 +25,7 @@ LIVE LINK: [openmindi.co.za](www.openmindi.co.za)
 - [Next.js](https://nextjs.org/)
 <br>
 <br>
+
 - Add-on packages include:
   - [Framer Motion](https://www.framer.com/motion/)
   - [React Hook Form](https://react-hook-form.com/)
@@ -33,6 +34,7 @@ LIVE LINK: [openmindi.co.za](www.openmindi.co.za)
   - [Tailwind Scroll Bar](https://www.npmjs.com/package/tailwind-scrollbar)
 <br>
 <br>
+
  - Fonts from [Google Fonts](https://fonts.google.com/)
  <br>
  - Icons from [Heroicons](https://heroicons.com/)
