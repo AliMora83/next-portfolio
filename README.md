@@ -6,7 +6,6 @@ This Web App was created to showcase my Software Development skills.
 <br> 
 LIVE LINK: [openmindi.co.za](www.openmindi.co.za)
 <br> 
-<br> 
 
 ## Features
 - About me section
@@ -17,13 +16,11 @@ LIVE LINK: [openmindi.co.za](www.openmindi.co.za)
 - Videos of the process
 - Contact section
 <br> 
-<br> 
 
 ## Tech Used / Dependencies
 - [React.js](https://react.dev/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Next.js](https://nextjs.org/)
-<br>
 <br>
 
 - Add-on packages include:
@@ -32,7 +29,6 @@ LIVE LINK: [openmindi.co.za](www.openmindi.co.za)
   - [React Simple Typewriter](https://www.npmjs.com/package/react-simple-typewriter) 
   - [React Social Icons](https://www.npmjs.com/package/react-social-icons)
   - [Tailwind Scroll Bar](https://www.npmjs.com/package/tailwind-scrollbar)
-<br>
 <br>
 
  - Fonts from [Google Fonts](https://fonts.google.com/)
