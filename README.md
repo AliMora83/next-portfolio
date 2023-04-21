@@ -36,5 +36,4 @@ LIVE LINK: [openmindi.co.za](www.openmindi.co.za)
 <br>
 
  - Fonts from [Google Fonts](https://fonts.google.com/)
- <br>
  - Icons from [Heroicons](https://heroicons.com/)
