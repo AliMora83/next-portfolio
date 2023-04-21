@@ -7,7 +7,6 @@ This Web App was created to showcase my Software Development skills.
 LIVE LINK: [openmindi.co.za](www.openmindi.co.za)
 <br> 
 <br> 
-<br> 
 
 ## Features
 - About me section
@@ -17,7 +16,6 @@ LIVE LINK: [openmindi.co.za](www.openmindi.co.za)
 - Live API's to test
 - Videos of the process
 - Contact section
-<br> 
 <br> 
 <br> 
 
