@@ -90,7 +90,7 @@ function Header() {
           target="_blank"
           rel="noreferrer"
         >
-          <p className="uppercase hover:scale-110 hidden md:inline-flex text-sm text-gray-400 hover:text-gray-100 font-mont ml-2">
+          <p className="uppercase hover:scale-105 transition-none duration-300 ease-in-out hidden md:inline-flex text-xs text-gray-400 hover:text-gray-100 font-mont ml-2">
             View My Resume
           </p>
         </a>
