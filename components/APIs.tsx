@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import ExpCard from "./ExpCard";
 import Card01 from "./CardExp/Card01";
-import Card02 from "./CardExp/Card02";
+import Card02 from "./CardExp/Card05";
 import Card03 from "./CardExp/Card03";
 import Card04 from "./CardExp/Card04";
 import Card05 from "./CardExp/Card05";

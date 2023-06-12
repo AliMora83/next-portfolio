@@ -19,12 +19,12 @@ export default function Projects({}: Props) {
           Projects
         </h3>
         <div
-          className="relative w-full flex overflow-x-scroll overflow-y-hidden 
-        snap-x snap-mandatory z-20 scrollbar-track-gray-400/20 scrollbar-thumb-[#f7ab0a] scrollbar-thin"
+          className="relative w-full flex overflow-x-scroll overflow-y-hidden
+          snap-x snap-mandatory z-20 scrollbar-track-gray-400/20 scrollbar-thumb-[#f7ab0a] scrollbar-thin"
         >
           <div
             className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 scroll-px-2
-                items-center justify-center p-20 md:p-44 h-screen "
+                    items-center justify-center p-20 md:p-44 h-screen "
           >
             <a
               href="https://namka-marketplace.netlify.app/"

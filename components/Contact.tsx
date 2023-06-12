@@ -59,7 +59,7 @@ export default function Contact({}: Props) {
 
       <div className="space-y-3 md:pb-10 pb-5">
         <a
-          href="https://api.whatsapp.com/send?phone=623705952"
+          href="https://api.whatsapp.com/send?phone=789658725"
           target="_blank"
           rel="noreferrer"
         >
