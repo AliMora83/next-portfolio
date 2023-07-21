@@ -86,7 +86,7 @@ function Header() {
           />
         </a>
         <a
-          href="https://alimora83.showwcase.com/"
+          href="https://invincible-guavaberry-51f.notion.site/RESUME-OCT-2022-85246e7b41a143919dd814ef2e8f5263"
           target="_blank"
           rel="noreferrer"
         >
