@@ -7,6 +7,7 @@ import Card03 from "./CardExp/Card03";
 import Card04 from "./CardExp/Card04";
 import Card05 from "./CardExp/Card05";
 import Card06 from "./CardExp/Card06";
+import Card07 from "./CardExp/Card07";
 
 export default function WorkExp() {
   return (
@@ -24,6 +25,13 @@ export default function WorkExp() {
         snap-x snap-mandatory overflow-x-scroll p-10
         scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#f7ab0a]"
       >
+        <div
+          className="flex flex-col rounded-lg items-center space-y-7 flex-shrink-0
+                        w-[350px] md:w-[500px] xl:w-[500px] snap-center bg-[#292929] p-10 hover:opacity-100
+                        opacity-40 transition-opacity duration-200 overflow-hidden"
+        >
+          <Card07 />
+        </div>
         <div
           className="flex flex-col rounded-lg items-center space-y-7 flex-shrink-0
                         w-[350px] md:w-[500px] xl:w-[500px] snap-center bg-[#292929] p-10 hover:opacity-100

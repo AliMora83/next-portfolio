@@ -1,11 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import ExpCard from "./ExpCard";
-import Card01 from "./CardExp/Card01";
-import Card02 from "./CardExp/Card05";
-import Card03 from "./CardExp/Card03";
-import Card04 from "./CardExp/Card04";
-import Card05 from "./CardExp/Card05";
+
 import Api01 from "./Apis/Api01";
 import Api02 from "./Apis/Api02";
 import Api03 from "./Apis/Api03";
@@ -33,10 +28,10 @@ export default function APIs() {
       >
         <div
           className="flex flex-col rounded-lg items-center space-y-7 flex-shrink-0
-                        w-[350px] md:w-[500px] xl:w-[500px] snap-center bg-[#292929] p-10 
-                        opacity-100 transition-opacity duration-200 overflow-hidden"
+                        w-[350px] md:w-[500px] xl:w-[500px] snap-center bg-[#292929] p-10 hover:opacity-100
+                        opacity-40 transition-opacity duration-200 overflow-hidden"
         >
-          <Api06 />
+          <Api01 />
         </div>
         <div
           className="flex flex-col rounded-lg items-center space-y-7 flex-shrink-0
@@ -54,8 +49,8 @@ export default function APIs() {
         </div>
         <div
           className="flex flex-col rounded-lg items-center space-y-7 flex-shrink-0
-                        w-[350px] md:w-[500px] xl:w-[500px] snap-center bg-[#292929] p-10 hover:opacity-100
-                        opacity-40 transition-opacity duration-200 overflow-hidden"
+        w-[350px] md:w-[500px] xl:w-[500px] snap-center bg-[#292929] p-10 hover:opacity-100
+        opacity-40 transition-opacity duration-200 overflow-hidden"
         >
           <Api04 />
         </div>
@@ -65,13 +60,6 @@ export default function APIs() {
         opacity-40 transition-opacity duration-200 overflow-hidden"
         >
           <Api05 />
-        </div>
-        <div
-          className="flex flex-col rounded-lg items-center space-y-7 flex-shrink-0
-        w-[350px] md:w-[500px] xl:w-[500px] snap-center bg-[#292929] p-10 hover:opacity-100
-        opacity-40 transition-opacity duration-200 overflow-hidden"
-        >
-          <Api01 />
         </div>
       </div>
     </motion.div>

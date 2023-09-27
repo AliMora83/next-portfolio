@@ -38,7 +38,7 @@ function Header() {
           className="hover:scale-150"
         />
         <SocialIcon
-          url="https://www.linkedin.com/in/daurius-ali-swarts-1b151420b/"
+          url="https://www.linkedin.com/in/daurius-ali-swarts/"
           target="_blank"
           fgColor="gray"
           bgColor="transparent"
@@ -54,7 +54,7 @@ function Header() {
           className="hover:scale-150"
         />
         <SocialIcon
-          url="https://api.whatsapp.com/send?phone=623705952"
+          url="https://api.whatsapp.com/send?phone=789658725"
           target="_blank"
           fgColor="gray"
           bgColor="transparent"
