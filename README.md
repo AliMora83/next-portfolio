@@ -4,7 +4,7 @@
 This Web App was created to showcase my Software Development skills.
 <br> 
 <br> 
-LIVE LINK: [openmindi.co.za](www.openmindi.co.za)
+Visit [Live Link](https://alimora-portfolio.vercel.app/)
 <br> 
 
 ## Features
