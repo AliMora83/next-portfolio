@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 
 export default function Api01() {
   return (
-    <article><a href="https://namka-food-api.netlify.app/" target="_blank" rel='noreferrer'>
+    <article><a href="https://foodrecipes-api.netlify.app/" target="_blank" rel='noreferrer'>
         <motion.img
           initial={{ opacity: 0, y: -100 }}
           transition={{ duration: 1.5 }}
