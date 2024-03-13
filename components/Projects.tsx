@@ -70,31 +70,26 @@ export default function Projects({}: Props) {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               className="md:h-80 h-44 mt-14"
-              src="/project_dao.png"
+              src="/dm_icon.png"
               alt=""
             />
             <p className="text-[#f7ab0a] uppercase text-sm">
               Case study 2 of 3
             </p>
-            <h2 className="">Web3 DAO</h2>
+            <h2 className="">DevelopMe</h2>
             <p className="">
-              Decentralized Autonomous
-              Organization. The blockchain
-              application automates decisions
-              through the consensus between
-              participants. Usually owns the
-              treasury in cryptocurrency value.
+            Connect with experienced mentors.
             </p>
 
-            <a href="#">
+            <a href="https://develop-me.onrender.com/">
               <button className="heroButton">
-                Coming Soon
+                View Live Link 
               </button>
             </a>
           </div>
           <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen">
             <a
-              href="https://nk-crypto-draw-02.netlify.app/"
+              href="https://devconnect-v2.netlify.app/"
               target="_blank"
               rel="noreferrer"
             >
@@ -104,30 +99,25 @@ export default function Projects({}: Props) {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 className="md:h-80 h-44 mt-14"
-                src="/project_draw.png"
+                src="/dc_icon.png"
                 alt=""
               />
             </a>
             <p className="text-[#f7ab0a] uppercase text-sm">
               Case study 3 of 3
             </p>
-            <h2 className="">Crypto Draw</h2>
+            <h2 className="">DevConnect</h2>
             <p className="">
-              A tool for raising funds, by buying
-              a certian amount of tickets, and
-              distributing rewards to the bearer
-              for the winning ticket, drawn at
-              random. It is a game whose victory
-              or failure is lead by probability.{" "}
+            A Platform that creates connections between junior developers and clients in search of cost-effective software solutions. We facilitate growth through real-world projects and hands-on learning, empowering both developers and clients in a mutually beneficial partnership.
             </p>
 
             <a
-              href="https://nk-crypto-draw-02.netlify.app/"
+              href="https://devconnect-v2.netlify.app/"
               target="_blank"
               rel="noreferrer"
             >
               <button className="heroButton">
-                NAMKA CRYPTO DRAW
+              View Live Link 
               </button>
             </a>
           </div>
