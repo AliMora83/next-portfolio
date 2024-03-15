@@ -81,7 +81,7 @@ export default function Projects({}: Props) {
             Connect with experienced mentors.
             </p>
 
-            <a href="https://develop-me.onrender.com/">
+            <a href="https://www.behance.net/gallery/173247639/Develop-Me">
               <button className="heroButton">
                 View Live Link 
               </button>
